@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея з картинками</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="color: hsl(0, 0%, 100%);">Bolhov</h1>
+    <img src="https://avatars.githubusercontent.com/u/175152601?s=400&u=8bfe04c8683dcf1cbc6412ca09948407e8f79a6c&v=4" height="350">
+    <div id="gallery"></div>
+    <div class="buttons">
+        <button onclick="loadMoreImages()">Добавити ще 4 картинки</button>
+        <button onclick="clearGallery()">Очистити галерею</button>
+        <button onclick="removeLastImage()">Видалити останню картинку</button>
+        <button onclick="reverseGallery()">Перемішати галерею</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
